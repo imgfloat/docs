@@ -1,0 +1,37 @@
+site_name: Imgfloat
+theme:
+  name: readthedocs
+  highlightjs: true
+plugins:
+  - search
+markdown_extensions:
+  - toc
+  - markdown_include.include:
+      base_path: .
+  - admonition
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Broadcaster: 
+      - Overview: tutorial/broadcaster/overview.md
+      - OBS setup: tutorial/broadcaster/obs.md
+      - Integrations: tutorial/broadcaster/integrations.md
+    - Channel Admin: 
+      - Overview: tutorial/channel_admin/overview.md
+      - Register: tutorial/channel_admin/register.md
+  - Admin Console:
+    - Overview: console/overview.md
+    - Adding Your First Asset: console/first.md
+    - Modifying Assets: console/modifying.md
+    - Asset Types:
+      - Images: console/assets/images.md
+      - Videos and Gifs: console/assets/videos.md
+      - Audio: console/assets/audio.md
+      - Script Assets:
+        - Overview: console/assets/scripts/overview.md
+        - Example Script Asset: console/assets/scripts/example.md
+        - Drawing Geometry: console/assets/scripts/geometry.md
+        - Using Attachments: console/assets/scripts/geometry.md
+        - Reading Chat: console/assets/scripts/chat.md
+        - Drawing Emotes: console/assets/scripts/emotes.md
+    - Marketplace: console/marketplace.md

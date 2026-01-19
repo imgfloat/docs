@@ -1,0 +1,7 @@
+[project]
+name = "docs"
+version = "1.0.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["mkdocs", "mkdocstrings[python]", "markdown-include"]
