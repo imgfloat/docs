@@ -13,11 +13,11 @@ nav:
   - Home: index.md
   - Getting Started:
     - Broadcaster: 
-      - Overview: tutorial/broadcaster/overview.md
+      - Getting Started: tutorial/broadcaster/overview.md
       - OBS setup: tutorial/broadcaster/obs.md
       - Integrations: tutorial/broadcaster/integrations.md
     - Channel Admin: 
-      - Overview: tutorial/channel_admin/overview.md
+      - Getting Started: tutorial/channel_admin/overview.md
       - Register: tutorial/channel_admin/register.md
   - Admin Console:
     - Overview: console/overview.md

@@ -1,0 +1,6 @@
+docs/tutorial/broadcaster/sign_in.png filter=lfs diff=lfs merge=lfs -text
+docs/tutorial/broadcaster/add_admin.png filter=lfs diff=lfs merge=lfs -text
+docs/tutorial/broadcaster/canvas_resolution.png filter=lfs diff=lfs merge=lfs -text
+docs/tutorial/broadcaster/client_empty.png filter=lfs diff=lfs merge=lfs -text
+docs/tutorial/broadcaster/client_startup.png filter=lfs diff=lfs merge=lfs -text
+docs/tutorial/broadcaster/download_client.png filter=lfs diff=lfs merge=lfs -text
