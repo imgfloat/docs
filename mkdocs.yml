@@ -1,14 +1,44 @@
 site_name: Imgfloat
+site_description: Imgfloat User Documentation
+site_url: https://docs.imgflo.at
+
 theme:
-  name: readthedocs
+  logo: assets/icon.png
+  name: material
   highlightjs: true
+  features:
+    - navigation.footer
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - toc.follow
+    - search.highlight
+    - search.share
+    - content.code.copy
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
 plugins:
   - search
+  - social
+
 markdown_extensions:
   - toc
   - markdown_include.include:
       base_path: .
   - admonition
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.details
+
 nav:
   - Home: index.md
   - Getting Started:

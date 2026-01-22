@@ -4,4 +4,10 @@ version = "1.0.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = ["mkdocs", "mkdocstrings[python]", "markdown-include"]
+dependencies = [
+    "mkdocs",
+    "mkdocstrings[python]",
+    "markdown-include",
+    "mkdocs-material[imaging]>=9.7.1",
+    "mike>=2.1.3",
+]
