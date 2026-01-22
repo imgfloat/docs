@@ -14,15 +14,14 @@ nav:
   - Getting Started:
     - Broadcaster: 
       - Getting Started: tutorial/broadcaster/overview.md
-      - OBS setup: tutorial/broadcaster/obs.md
+      - OBS Setup: tutorial/broadcaster/obs.md
       - Integrations: tutorial/broadcaster/integrations.md
+      - Audit Log: tutorial/broadcaster/audit_log.md
     - Channel Admin: 
       - Getting Started: tutorial/channel_admin/overview.md
-      - Register: tutorial/channel_admin/register.md
   - Admin Console:
     - Overview: console/overview.md
     - Adding Your First Asset: console/first.md
-    - Modifying Assets: console/modifying.md
     - Asset Types:
       - Images: console/assets/images.md
       - Videos and Gifs: console/assets/videos.md
@@ -30,8 +29,8 @@ nav:
       - Script Assets:
         - Overview: console/assets/scripts/overview.md
         - Example Script Asset: console/assets/scripts/example.md
-        - Drawing Geometry: console/assets/scripts/geometry.md
-        - Using Attachments: console/assets/scripts/geometry.md
+        - Using Attachments: console/assets/scripts/attachments.md
         - Reading Chat: console/assets/scripts/chat.md
         - Drawing Emotes: console/assets/scripts/emotes.md
+        - Dealing with errors: console/assets/scripts/errors.md
     - Marketplace: console/marketplace.md
